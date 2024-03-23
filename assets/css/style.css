@@ -80,6 +80,7 @@
 .home-about:hover {
     color: red;
 }
+
 .Home:hover {
     color: red;
 }
@@ -91,4 +92,12 @@
     line-height: 27px;
     text-align: left;
     color: black;
+}
+
+.background-image {
+    background-image: url(../images/section1-image.png);
+    background-repeat: no-repeat;
+    height: 32vh;
+    background-size: cover;
+    background-position: center;
 }
