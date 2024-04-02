@@ -261,7 +261,7 @@
 
 .py-50 {
     padding-top: 50px;
-    padding-bottom: 0%;
+    padding-bottom: 50px;
 }
 
 .About-image {
@@ -271,4 +271,45 @@
 
 .background-color-3 {
     background-color: #F6E300;
+}
+
+.background-color-4 {
+    background-color: #F4241E;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.py-35 {
+    padding-top: 35px;
+    padding-bottom: 0%;
+}
+
+.supplies {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: white;
+}
+
+.three-three {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: white;
+}
+
+.public-sale {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: white;
 }
