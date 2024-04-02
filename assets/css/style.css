@@ -20,6 +20,14 @@
     background-color: #F6E300;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
 .z-2 {
     z-index: 2;
 }
@@ -40,8 +48,30 @@
     gap: 45px;
 }
 
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .align-items-center {
     align-items: center;
+}
+
+.w-100 {
+    width: 100%;
 }
 
 .Connect-walet {
@@ -102,10 +132,6 @@
     background-position: center;
 }
 
-/* .section-2 {
-    background-color: #F6E300;
-} */
-
 .background-color-1 {
     background-color: #F6E300;
 }
@@ -113,9 +139,11 @@
 .postion-relative {
     position: relative;
 }
-.postion-absolute{
+
+.postion-absolute {
     position: absolute;
 }
+
 .Welcome-to {
     font-family: "Poppins", sans-serif;
     font-size: 36px;
@@ -130,38 +158,117 @@
 .mt-35 {
     margin-top: 35px;
 }
-.mt-20{
+
+.mt-20 {
     margin-top: 20px;
 }
-.burgger-1{
+
+.burgger-1 {
     top: 0%;
     left: 6%;
 }
-.burgger-2{
+
+.burgger-2 {
     bottom: 0%;
     left: 0%;
 }
-.burgger-3{
+
+.burgger-3 {
     top: 0%;
     left: 22%;
 }
-.burgger-4{
+
+.burgger-4 {
     bottom: 10%;
     left: 17%;
 }
-.burgger-5{
+
+.burgger-5 {
     top: 7%;
     right: 21%;
 }
-.burgger-6{
+
+.burgger-6 {
     top: 0%;
     right: 0%;
 }
-.burgger-7{
+
+.burgger-7 {
     bottom: 0%;
     right: 13%;
 }
-.burgger-8{
+
+.burgger-8 {
     bottom: 19%;
     right: 0%;
+}
+
+.background-color-2 {
+    background-color: #FFF03F;
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.paragraph {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+}
+
+.discover {
+    width: 183px;
+    height: 50px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.discover:hover {
+    background-color: #fff;
+    color: #F4241E;
+}
+
+.pt-130 {
+    padding-top: 130px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.pr-123 {
+    padding-right: 123px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 0%;
+}
+
+.About-image {
+    width: 536px;
+    height: 554px;
+}
+
+.background-color-3 {
+    background-color: #F6E300;
 }
