@@ -165,7 +165,7 @@
 
 .burgger-1 {
     top: 0%;
-    left: 6%;
+    left: 6%
 }
 
 .burgger-2 {
@@ -419,21 +419,21 @@
 
 .roadmap-burgger-1 {
     top: 4%;
-    left: 24%;
+    left: 7%;
 }
 
 .roadmap-burger-2 {
-    top: 32%;
+    top: 35%;
     left: 0%;
 }
 
 .roadmap-burger-3 {
-    bottom: 25%;
-    left: 31%;
+    bottom: 30%;
+    left:17%;
 }
 
 .roadmap-burger-4 {
-    bottom: 0%;
+    bottom: 9%;
     left: 0%;
 }
 
@@ -449,12 +449,12 @@
 
 .roadmap-burger-7 {
     bottom: 12%;
-    right: 5%;
+    right: 0%;
 }
 
 .roadmap-burger-8 {
     bottom: 4%;
-    right: 33%;
+    right: 22%;
 }
 
 .background-color-6 {
@@ -483,15 +483,130 @@
     line-height: 32.4px;
     color: #000000;
 }
-.mb-20{
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.mb-20 {
     margin-bottom: 20px;
 }
-.mt-20{
+
+.mt-20 {
     margin-top: 20px;
 }
-.mt-10{
+
+.mt-10 {
     margin-top: 10px;
 }
-.pb-70{
+
+.pb-70 {
     padding-bottom: 70px;
+}
+
+.background-color-7 {
+    background-color: #F6E300;
+}
+
+.pt-58 {
+    padding-top: 58px;
+}
+
+.faq {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.accordian-box {
+    max-width: 992px;
+    background: #FFF03F;
+    min-height: 90px;
+    overflow: hidden;
+    position: relative;
+    transition: all 150ms linear;
+    padding-right: 10px;
+}
+
+.pd-30 {
+    padding: 30px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.accordian-heading {
+    position: relative;
+    z-index: 1;
+}
+
+.heading-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.arrow-updown {
+    transition: 0.7s;
+}
+
+.hide-text {
+    position: absolute;
+    top: -180%;
+    transition: all 150ms linear;
+}
+
+.accordian-box.active .hide-text {
+    position: unset;
+}
+
+.accordian-box.active .icon-down {
+    transform: rotate(180deg);
+}
+
+.accordian-box.active .arrow-updown {
+    transform: rotate(180deg);
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.remote-bird {
+    transition: 2s;
+}
+
+.remote-bird:hover {
+    transform: rotatey(360deg);
+    filter: drop-shadow(0px 0px 10px grey);
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mb-55 {
+    margin-bottom: 55px;
+}
+
+.copy-right {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
 }
