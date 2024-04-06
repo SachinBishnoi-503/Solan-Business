@@ -8,3 +8,8 @@ accordionHeading.forEach(e => {
         activeAccrodion && activeAccrodion.classList.remove("active");
     })
 });
+let menuicon = document.querySelector(".menubar");
+let menulist = document.querySelector(".nav-item");
+menuicon.addEventListener("click", function () {
+    menulist.classList.toggle("show");
+})

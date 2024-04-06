@@ -28,13 +28,10 @@
     margin-right: -12px;
 }
 
-.z-2 {
-    z-index: 2;
+.z-5 {
+    z-index: 5;
 }
 
-.w-100 {
-    width: 100%;
-}
 
 .d-flex {
     display: flex;
@@ -42,6 +39,14 @@
 
 .justify-content-between {
     justify-content: space-between;
+}
+
+.postion-fixed {
+    position: fixed;
+}
+
+.t-0 {
+    top: 0%;
 }
 
 .gap-45 {
@@ -56,6 +61,12 @@
 
 .col-3 {
     width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -130,6 +141,7 @@
     height: 32vh;
     background-size: cover;
     background-position: center;
+    margin-top: 35px;
 }
 
 .background-color-1 {
@@ -264,11 +276,6 @@
     padding-bottom: 50px;
 }
 
-.About-image {
-    width: 536px;
-    height: 554px;
-}
-
 .background-color-3 {
     background-color: #F6E300;
 }
@@ -329,9 +336,9 @@
     width: 6px;
     background-color: #F4241E;
     top: 6%;
-    bottom: 25%;
+    bottom: -17px;
     left: 50%;
-    margin-left: -3px;
+    margin-left: -6px;
 }
 
 .text {
@@ -411,7 +418,7 @@
 
 .roadmap {
     font-family: "Poppins", sans-serif;
-    font-size: 48px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 72px;
     padding: 40px;
@@ -429,7 +436,7 @@
 
 .roadmap-burger-3 {
     bottom: 30%;
-    left:17%;
+    left: 17%;
 }
 
 .roadmap-burger-4 {
@@ -575,6 +582,10 @@
     transform: rotate(180deg);
 }
 
+.z-20 {
+    z-index: 20;
+}
+
 .mt-55 {
     margin-top: 55px;
 }
@@ -600,6 +611,10 @@
     margin-top: 60px;
 }
 
+.w-100-sm {
+    width: 100%;
+}
+
 .mb-55 {
     margin-bottom: 55px;
 }
@@ -609,4 +624,187 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 32.4px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.col-12 {
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+@media (max-width:992px) {
+    .lg-col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .lg-pt-20 {
+        padding-top: 20px;
+    }
+
+    .lg-col-4 {
+        width: 33.33%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .text {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .text::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+}
+
+@media (max-width:768px) {
+    .md-col-6 {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .md-mt-15 {
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width:992px) {
+    .xl-col-7 {
+        width: 58.33%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .xl-col-5 {
+        width: 41.66%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .xl-col-3 {
+        width: 25%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .md-col-4 {
+        width: 33.33%;
+        padding-right: 12px;
+        padding-left: 21px;
+    }
+
+    .md-col-6 {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .sm-col-6 {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+}
+
+@media (max-width:567px) {
+    .sm-col-6 {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .sm-col-12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .sm-col-12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+    .menubar {
+        width: 40px;
+        height: 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 4%;
+        transform: translatey(-50%);
+        top: 50%;
+        z-index: 4;
+    }
+
+    .menubar span {
+        height: 7px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    .nav-item {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        left: -100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .show {
+        left: 0;
+    }
+
 }
